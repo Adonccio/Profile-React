@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;700;800&display=swap');
+
+body {
+    display: grid;
+    place-content: center;
+    background-color: #202124;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+#card {
+    width: 500px;
+    color: white;
+    background-color: #00D756;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bolder;
+    color: #202124;
+    box-shadow: 5px 5px  #616a8a35;
+    border-style: solid;
+    border-color: #eaeaead7;
+}
+
+img {
+    width: 50%;
+    border-radius: 50%;
+    margin: 40px;
+    border: 5px;
+    border-style: dashed;
+    border-color: #eaeaea70;
+}
+
+hr {
+   border-color: #202124;
+}
+
+#buttons {
+    width: auto;
+    height: auto;
+    display: grid;
+    place-content: center;
+}
+
+
+
+button {
+    width: 120px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 11px;
+    box-shadow: 2px 2px #03662b;
+    text-align: center;
+    font-weight: bolder;
+    background-image: linear-gradient(to left, #24f678, #075024);
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #24f678, #075024);
+}
+
+img:hover {
+    width: 300px;
+    transition: 300ms;
+}
