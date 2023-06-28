@@ -4,7 +4,7 @@ body {
     display: grid;
     place-content: center;
     background-color: #202124;
-    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif ;
 }
 
 #card {
